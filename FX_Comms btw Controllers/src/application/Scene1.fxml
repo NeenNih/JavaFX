@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Scene1Controller">
+   <children>
+      <TextField fx:id="nameTextField" layoutX="215.0" layoutY="145.0" prefHeight="67.0" prefWidth="324.0">
+         <font>
+            <Font name="Gabriola" size="48.0" />
+         </font></TextField>
+      <Button fx:id="loginButton" layoutX="349.0" layoutY="241.0" mnemonicParsing="false" onAction="#login" prefHeight="32.0" prefWidth="55.0" text="login" textFill="#016b41">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font></Button>
+      <Label layoutX="47.0" layoutY="161.0" text="username:" textFill="#0036ff">
+         <font>
+            <Font name="Gabriola" size="48.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
